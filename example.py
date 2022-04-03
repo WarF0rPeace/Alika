@@ -22,7 +22,7 @@ if login[0]:
         user = alika.getUser()
 
         image = open("pp.png", "rb").read()
-        image = wfp.ImageBase64(image).decode('utf-8')
+        image = wfp.imageBase64(image).decode('utf-8')
         
         print(alika.changePP(image))
         print(user)
